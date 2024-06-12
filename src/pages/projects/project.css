@@ -1,0 +1,13 @@
+.projectContainer{
+    height: 100vh;
+    /* background-color: color-mix(in srgb, rgb(0, 60, 255) 50%, rgb(192, 248, 255) 50%); */
+    background-color: rgb(from rgba(0, 242, 255, 0.566) r g b);
+}
+
+.projectCardsContainer{
+    
+}
+
+.projectCard{
+    
+}
