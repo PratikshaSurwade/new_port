@@ -1,14 +1,15 @@
-import React, { useState } from 'react';
-import { Image } from '@imagekit/react';
+import { useState } from 'react';
 import { NavLink } from 'react-router';
-import { SignIn, SignedIn, SignedOut, UserButton } from '@clerk/clerk-react';
+import { SignedIn, SignedOut, UserButton } from '@clerk/clerk-react';
+import IKImageComponent from './Image';
+
 const Navbar = () => {
     const [open, setOpen] = useState(false)
     return (
         <div className='w-full h-16 md:h-20 flex items-center justify-between'>
             {/* Logo */}
             <NavLink to="/" className='flex items-center gap-4 text-2xl font-bold'>
-                <Image
+                <IKImageComponent
                     urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINTS}
                     src="/logo.png" className='w-8 h-8' alt="logo" />
                 <span>MyBlog.</span>

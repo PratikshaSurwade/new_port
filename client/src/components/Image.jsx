@@ -1,9 +1,22 @@
-import React from 'react'
+import { Image } from "@imagekit/react";
 
-const Image = () => {
+const IKImageComponent = ({ src, className, w, h, alt }) => {
   return (
-    <div>Image</div>
-  )
-}
+    <Image
+      urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINTS}
+      path={src}
+      className={className}
+      loading="lazy"
+      lqip={{ active: true, quality: 20 }}
+      alt={alt}
+      transformation={[
+        {
+          width: w,
+          height: h,
+        },
+      ]}
+    />
+  );
+};
 
-export default Image
+export default IKImageComponent;
