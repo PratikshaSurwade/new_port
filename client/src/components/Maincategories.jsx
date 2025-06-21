@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router'
 import Search from './Search'
 
@@ -13,7 +12,6 @@ const Maincategories = () => {
                 <Link to="/">Serch Engines</Link>
                 <Link to="/">Marketing</Link>
             </div>
-            |
             <Search />
         </div>
     )

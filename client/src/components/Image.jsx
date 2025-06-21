@@ -4,7 +4,7 @@ const IKImageComponent = ({ src, className, w, h, alt }) => {
   return (
     <Image
       urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINTS}
-      path={src}
+      src={src}
       className={className}
       loading="lazy"
       lqip={{ active: true, quality: 20 }}

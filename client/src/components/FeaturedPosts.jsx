@@ -10,6 +10,7 @@ const FeaturedPosts = () => {
               className="rounded-3xl object-cover w-full h-full"
               w="298"
             />
+            <div className=""></div>
         </div>
         {/* Others */}
         <div className='w-full lg:w-1/2'>Smaller</div>
