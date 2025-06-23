@@ -13,7 +13,7 @@ const App = () => {
 			<Navbar />
 			<Routes>
 				<Route index element={<Home />} />
-				<Route path="singlepost:id" element={<Singlepost />} />
+				<Route path="singlepost/:id" element={<Singlepost />} />
 				<Route path="login" element={<Login />} />
 				<Route path="register" element={<Register />} />
 				<Route path="write" element={<Write />} />
