@@ -6,7 +6,7 @@ const PostListItem = () => {
 
     const post ={
   "user": "60f7f13a3c9d4a3b8c123456", 
-  "img": "https://yourcdn.com/images/post-banner.jpg",
+  "img": "https://ik.imagekit.io/vmtnjdnj6/featured1.jpeg?tr=w-220:w-1920,c-at_max",
   "title": "Getting Started with React in 2025",
   "slug": "getting-started-with-react-2025",
   "desc": "A beginner-friendly guide to start building apps with React.",
