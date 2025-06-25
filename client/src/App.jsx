@@ -5,7 +5,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Singlepost from "./pages/Singlepost";
 import Write from "./pages/Write";
-import Postlist from "./pages/Postlist";
+import PostListPage from "./pages/PostListPage";
 
 const App = () => {
 	return (
@@ -17,7 +17,7 @@ const App = () => {
 				<Route path="login" element={<Login />} />
 				<Route path="register" element={<Register />} />
 				<Route path="write" element={<Write />} />
-				<Route path="postlist" element={<Postlist />} />
+				<Route path="postlist" element={<PostListPage />} />
 			</Routes>
 		</div>
 	)

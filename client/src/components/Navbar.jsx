@@ -15,7 +15,7 @@ const Navbar = () => {
                 <span>MyBlog.</span>
             </NavLink>
             {/* Mobile Menu */}
-            <div className='md:hidden'>
+            <div className='md:hidden z-10'>
                 <div className=' cursor-pointer text-3xl '
                     onClick={() => setOpen(prev => !prev)}>
                     {open ? "X" : "☰"}
