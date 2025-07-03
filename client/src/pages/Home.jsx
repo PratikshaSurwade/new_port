@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router'
 import Maincategories from '../components/Maincategories'
 import FeaturedPosts from '../components/FeaturedPosts'
